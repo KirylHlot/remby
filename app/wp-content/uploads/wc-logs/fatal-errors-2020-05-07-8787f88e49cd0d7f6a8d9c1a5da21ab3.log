@@ -1,0 +1,54 @@
+2020-05-07T09:43:31+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:6
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\ajax_functions.php(39): product_carousel_item('new')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): show_filtered_products('')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 6
+
+2020-05-07T09:56:26+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:6
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\ajax_functions.php(48): product_carousel_item('sale')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): show_filtered_products('')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 6
+
+2020-05-07T09:56:37+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:6
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\ajax_functions.php(48): product_carousel_item('featured')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): show_filtered_products('')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 6
+
+2020-05-07T09:56:42+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:6
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\ajax_functions.php(48): product_carousel_item('sale')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): show_filtered_products('')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 6
+
+2020-05-07T16:53:06+00:00 CRITICAL syntax error, unexpected ')' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 172
+
+2020-05-07T17:34:57+00:00 CRITICAL Uncaught Error: Call to undefined function the_wiber_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:184
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 184
+
+2020-05-07T19:35:07+00:00 CRITICAL syntax error, unexpected ')' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\footer.php на строке 5
+
+2020-05-07T22:55:13+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 168
+

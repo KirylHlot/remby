@@ -1,0 +1,47 @@
+@mixin simple_list_items($type: space-between, $items_count: 3, $min_height: 150px, $mb: 30px)
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	@if $type == space-around
+		justify-content: space-around
+	@else if $type == center
+		justify-content: center
+	@else
+		justify-content: space-between
+	.list_item
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		display: block
+		height: auto
+		margin-bottom: $mb
+		min-height: $min_height
+		@if $items_count == 2
+			width: 48%
+		@else if $items_count == 4
+			width: 23%
+		@else
+			width: 32%
+
+
+@function pow($base, $exponent)
+	$result: 1
+	@for $_ from 1 through $exponent
+		$result: $result * $base
+	@return $result
+
+
+
+@mixin flex_center
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: row
+
+@mixin bg_image
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+

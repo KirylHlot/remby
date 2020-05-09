@@ -1,0 +1,156 @@
+2020-05-06T12:12:35+00:00 CRITICAL Uncaught Error: Call to undefined function the_advantage() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:59
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 59
+
+2020-05-06T15:05:09+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:65
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 65
+
+2020-05-06T15:07:28+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:65
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 65
+
+2020-05-06T15:07:58+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:68
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 68
+
+2020-05-06T15:08:31+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:73
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 73
+
+2020-05-06T15:08:34+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:73
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 73
+
+2020-05-06T15:08:38+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:74
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 74
+
+2020-05-06T15:08:41+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:74
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 74
+
+2020-05-06T15:09:03+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:75
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 75
+
+2020-05-06T15:10:58+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:75
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 75
+
+2020-05-06T15:16:38+00:00 CRITICAL Uncaught Error: Call to undefined function product_item() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php:77
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 77
+
+2020-05-06T15:34:34+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php на строке 74
+
+2020-05-06T15:46:26+00:00 CRITICAL syntax error, unexpected '}', expecting ';' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 10
+
+2020-05-06T16:16:16+00:00 CRITICAL syntax error, unexpected '$product' (T_VARIABLE) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 6
+
+2020-05-06T16:16:53+00:00 CRITICAL syntax error, unexpected '}' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 9
+
+2020-05-06T16:19:46+00:00 CRITICAL Uncaught Error: Using $this when not in object context in F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:287
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php(8): WC_Product::get_sale_price()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(95): product_carousel_item(58)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#4 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#5 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 287
+
+2020-05-06T17:14:07+00:00 CRITICAL syntax error, unexpected '}', expecting ';' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 28
+
+2020-05-06T17:29:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 23
+
+2020-05-06T20:07:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::regular_price() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:12
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(96): product_carousel_item(58)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 12
+
+2020-05-06T20:51:33+00:00 CRITICAL syntax error, unexpected '.' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 48
+
+2020-05-06T22:15:27+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 5
+
+2020-05-06T22:27:17+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:13
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): product_carousel_item('')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 13
+
+2020-05-06T22:27:41+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:13
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): product_carousel_item('')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 13
+
+2020-05-06T22:27:46+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php:13
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): product_carousel_item('')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-admin\admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 13
+
+2020-05-06T22:56:37+00:00 CRITICAL syntax error, unexpected '}' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 9
+
+2020-05-06T22:56:38+00:00 CRITICAL syntax error, unexpected '}' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 9
+
+2020-05-06T22:56:39+00:00 CRITICAL syntax error, unexpected '}' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\product_carousel_item.php на строке 9
+

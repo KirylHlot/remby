@@ -1,0 +1,19 @@
+.premmerce-plugin-row[data-plugin-row="active"] .premmerce-plugin-row__button-install,
+.premmerce-plugin-row[data-plugin-row="installed"] .premmerce-plugin-row__button-install {
+    display: none;
+}
+
+.premmerce-plugin-row[data-plugin-row="none"] .premmerce-plugin-row__button-activate,
+.premmerce-plugin-row[data-plugin-row="active"] .premmerce-plugin-row__button-activate {
+    display: none;
+}
+
+.premmerce-plugin-row[data-plugin-row="none"] .premmerce-plugin-row__text-active,
+.premmerce-plugin-row[data-plugin-row="installed"] .premmerce-plugin-row__text-active {
+    display: none;
+}
+
+
+
+
+

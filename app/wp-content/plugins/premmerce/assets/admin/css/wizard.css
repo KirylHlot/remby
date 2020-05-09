@@ -1,0 +1,394 @@
+/******************
+.state-switcher START
+*******************/
+.state-switcher {
+    padding: 15px 0 30px;
+    display: block;
+}
+
+.state-switcher__label {
+    margin-right: 30px;
+    color: #23282d;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.state-switcher input[type=radio] {
+    border: 2px solid #b3b3b3;
+}
+
+.state-switcher input[type=radio]:checked:before {
+    background-color: #34a853;
+    width: 8px;
+    height: 8px;
+    margin: 2px;
+}
+
+.state-switcher input[type=radio]:focus {
+    border-color: #34a853;
+    -webkit-box-shadow: 0 0 2px rgba(52, 168, 83, .8);
+    box-shadow: 0 0 2px rgba(52, 168, 83, .8);
+}
+
+.state-switcher input[type=radio],
+.state-switcher input[type=checkbox] {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/******************
+.state-switcher END
+*******************/
+
+/******************
+.task-container START
+*******************/
+.task-container {
+    display: block;
+}
+
+.task-container--ajax-block {
+    position: relative;
+}
+
+.task-container--ajax-block:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.task-container--ajax-block .spinner {
+    visibility: visible;
+    position: absolute;
+    left: 50%;
+    z-index: 10000;
+    top: 15px;
+}
+
+.task-container__task {
+    padding: 27px 40px;
+    height: auto !important;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(71, 71, 68, 0.05);
+    transition: .1s;
+}
+
+.task-container__task:hover {
+    box-shadow: 0px 0px 15px 1px rgba(71, 71, 68, 0.15);
+}
+
+.task-container__task-content-row {
+    display: table;
+    width: 100%;
+}
+
+.task-container__task-aside,
+.task-container__task-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.task-container__task-aside {
+
+}
+
+.task-container__task-body {
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+}
+
+.task-container__task-footer {
+}
+
+.task-container__task-footer-row {
+}
+
+.task-container__task-footer-row:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.task-container__task-description {
+    margin-bottom: 20px;
+}
+
+.task-container__task:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.task-container__task-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.task-container__task-action {
+    /*float: left;*/
+    /*margin-right: 10px;*/
+}
+
+.task-container__task--state-checked {
+    /*background-color: #d9f3df;*/
+}
+
+/* TASK LOCKED */
+.task-container__task--locked {
+    /*outline: 1px solid red;*/
+}
+
+/* Hide elements that has (state|type)-hidden class when task container has same (state|type) */
+.task-container__task--state-skipped .task-container__task-action--state-skipped-hidden,
+.task-container__task--locked .task-container__task-action--locked-hidden {
+    display: none;
+}
+
+.task-container__task-link {
+    margin-right: 10px;
+}
+
+.task-container__task-action-label {
+    cursor: pointer;
+}
+
+/* add transparent color for locked task and premium task*/
+.task-container__task--state-skipped,
+.task-container__task--type-premium,
+.task-container__task--locked {
+    background: rgba(255, 255, 255, 0.7);;
+}
+
+.task-container__task--type-premium .task-container__task-title,
+.task-container__task--type-premium .task-container__task-description,
+.task-container__task--type-premium .task-container__task-action-label,
+.task-container__task--locked .task-container__task-title,
+.task-container__task--locked .task-container__task-description,
+.task-container__task--locked .task-container__task-action-label,
+.task-container__task--state-skipped .task-container__task-title,
+.task-container__task--state-skipped .task-container__task-description,
+.task-container__task--state-skipped .task-container__task-action-label {
+    opacity: 0.7;
+}
+
+/* hide checkboxes */
+.task-container__task-action-checkbox {
+    display: none !important;
+}
+
+/* hide 'Skip' checkbox label if task checked */
+.task-container__task--state-checked .task-container__task-action--skipped {
+    display: none;
+}
+
+/* hide 'Check' checkbox label if task skipped */
+.task-container__task--state-skipped .task-container__task-action--checked {
+    /*display: none;*/
+}
+
+/* Hide check view */
+.task-container__task-action-checkbox:not(:checked) + .task-container__task-check-view .task-container__task-check-view--uncheck {
+    display: none;
+}
+
+/*!* Hide uncheck view *!*/
+.task-container__task-action-checkbox:checked + .task-container__task-check-view .task-container__task-check-view--check {
+    display: none;
+}
+
+/* .task-container END */
+.task-container__task-action-checkbox-icon {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #e6e6e6;
+    transition: .3s;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    color: #e6e6e6;
+}
+
+.task-container__task-action-checkbox:checked + .task-container__task-action-checkbox-icon {
+    background: #34a853;
+    border-color: #34a853;
+}
+
+.task-container__task-action-checkbox-icon svg {
+    fill: currentColor;
+    width: 19px;
+    height: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.task-container__show-all {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.task-container__description {
+    font-size: 24px;
+    color: #adadad;
+    margin-bottom: 22px;
+}
+
+.task-container__show-all-button {
+    font-size: 18px !important;
+    padding: 0px 32px !important;
+    height: 42px !important;
+}
+
+/* RESET CURSOR if task type-auto || task type-premium || state locked */
+.task-container__task--type-auto .task-container__task-action-label-check,
+.task-container__task--type-premium .task-container__task-action-label-check,
+.task-container__task--state-skipped .task-container__task-action-label-check,
+.task-container__task--locked.task-container__task--state-todo .task-container__task-action-label-check
+{
+    cursor: default;
+    pointer-events: none;
+}
+
+.task-container__task:not(.task-container__task--locked):not(.task-container__task--type-auto):not(.task-container__task--state-skipped):not(.task-container__task--type-premium):not(.task-container__task--locked) .task-container__task-action-label-check:hover .task-container__task-action-checkbox:not(:checked) + .task-container__task-action-checkbox-icon {
+    box-shadow: 0 0 0 3px #33a652;
+    border-color: #fff;
+    color: #33a652;
+}
+
+/* Hide all tasks */
+[data-task-state] {
+    display: none;
+}
+
+/*Show only tasks with selected state */
+[data-container-state="all"] [data-task-state],
+[data-container-state="todo"] [data-task-state="todo"],
+[data-container-state="checked"] [data-task-state="checked"],
+[data-container-state="skipped"] [data-task-state="skipped"] {
+    display: block !important;
+}
+
+@media (max-width: 783px) {
+    .task-container__task {
+        padding: 20px 25px;
+    }
+
+    .task-container__task-body {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .task-container__task-action-checkbox-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .task-container__task-body {
+        padding: 0;
+    }
+
+    .task-container__task-aside, .task-container__task-body {
+        display: block;
+    }
+
+    .task-container__task-aside:first-child {
+        margin-bottom: 15px;
+    }
+
+    .task-container__task-aside:last-child {
+        margin-top: 15px;
+    }
+}
+
+/******************
+.task-container END
+*******************/
+
+/*******************
+btn-notice  START
+*******************/
+.btn-notice {
+    font-size: 0;
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+
+.btn-notice:hover {
+    color: #fff;
+}
+
+.btn-notice--unresolved {
+    background: #ed1c24;
+    box-shadow: 0px 2px 8px 1px rgba(238, 28, 35, 0.35);
+
+}
+
+.btn-notice--unresolved:hover {
+    background: #ed3c46;
+}
+
+.btn-notice--premium {
+    background: #eba149;
+    box-shadow: 0px 0px 7px 3px rgba(235, 161, 73, 0.35);
+}
+
+.btn-notice--premium:hover {
+    background: #eba149;
+}
+
+.btn-notice__icon {
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+
+.btn-notice__icon svg {
+    color: inherit;
+    fill: currentColor;
+}
+
+.btn-notice__text-el {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+@media (max-width: 783px) {
+}
+
+/*******************
+btn-notice  END
+*******************/
+
+/********************
+btn-skip  START
+********************/
+.btn-skip {
+    color: #999999;
+    font-size: 16px;
+    border-bottom: 1px solid #999999;
+}
+
+.btn-unskip {
+    color: #117cb0;
+    font-size: 16px;
+    border-bottom: 1px solid #0073aa;
+}
+
+/********************
+btn-skip  END
+********************/

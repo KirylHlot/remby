@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Raleway-ExtraLight';
+  src: url('Raleway-ExtraLight.svg#Raleway-ExtraLight') format('svg'),
+       url('Raleway-ExtraLight.ttf') format('truetype'),
+       url('Raleway-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewayExtraLight';
+  src: url('RalewayExtraLight.eot');
+  src: url('RalewayExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('RalewayExtraLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

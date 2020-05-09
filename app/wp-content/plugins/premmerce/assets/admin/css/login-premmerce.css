@@ -1,0 +1,3 @@
+div#login > h1 > a {
+    background-image: url('/wp-content/plugins/premmerce-premium/assets/admin/images/premmerce_login.svg');
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: url('Raleway-SemiBold.svg#Raleway-SemiBold') format('svg'),
+       url('Raleway-SemiBold.ttf') format('truetype'),
+       url('Raleway-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url('RalewaySemiBold.eot');
+  src: url('RalewaySemiBold.eot?#iefix') format('embedded-opentype'),
+       url('RalewaySemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

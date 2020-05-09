@@ -1,0 +1,107 @@
+2020-05-05T13:46:21+00:00 CRITICAL Uncaught Error: Call to undefined function top_nav() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php:26
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#7 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php на строке 26
+
+2020-05-05T13:46:44+00:00 CRITICAL Uncaught Error: Call to undefined function top_nav() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php:26
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#7 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php на строке 26
+
+2020-05-05T14:09:03+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:09:17+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:11:30+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:11:39+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:13:10+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:15:08+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:16:57+00:00 CRITICAL Uncaught Error: Call to undefined function the_burger_icon() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php:18
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\header.php(26): top_menu()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(723): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template.php(672): load_template('F:\\Server\\OSPan...', true)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\front-page.php(3): get_header()
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#7 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_menus.php на строке 18
+
+2020-05-05T14:17:24+00:00 CRITICAL syntax error, unexpected 'templates' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 236
+
+2020-05-05T14:17:25+00:00 CRITICAL syntax error, unexpected 'templates' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 236
+
+2020-05-05T14:17:28+00:00 CRITICAL syntax error, unexpected 'templates' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 236
+

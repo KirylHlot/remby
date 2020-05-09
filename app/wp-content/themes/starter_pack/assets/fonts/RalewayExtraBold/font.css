@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  src: url('Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg'),
+       url('Raleway-ExtraBold.ttf') format('truetype'),
+       url('Raleway-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url('RalewayExtraBold.eot');
+  src: url('RalewayExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('RalewayExtraBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

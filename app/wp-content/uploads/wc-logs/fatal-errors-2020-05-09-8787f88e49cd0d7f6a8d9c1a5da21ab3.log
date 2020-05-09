@@ -1,0 +1,135 @@
+2020-05-09T00:47:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::is_on_stock() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:43
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(44): search_item_template(58)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 43
+
+2020-05-09T00:50:37+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 84
+
+2020-05-09T00:50:38+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 84
+
+2020-05-09T00:57:56+00:00 CRITICAL syntax error, unexpected '?>' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 72
+
+2020-05-09T00:57:58+00:00 CRITICAL syntax error, unexpected '?>' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 72
+
+2020-05-09T01:18:58+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:20:15+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:20:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 34
+
+2020-05-09T01:23:33+00:00 CRITICAL Uncaught Exception: Неверный товар. in F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php(33): WC_Product->__construct(27)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#6 F:\Server\OSPanel\domains\remby в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php на строке 165
+
+2020-05-09T01:24:15+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:26:13+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:27:22+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:27:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(27)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+
+2020-05-09T01:29:17+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::is_product() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(43): search_item_template(58)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 34
+
+2020-05-09T01:36:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(45): search_item_template(58)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 34
+
+2020-05-09T01:36:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(45): search_item_template(58)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 34
+
+2020-05-09T01:38:08+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:37
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(45): search_item_template(151)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 37
+
+2020-05-09T01:38:20+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:38
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\search.php(45): search_item_template(151)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
+

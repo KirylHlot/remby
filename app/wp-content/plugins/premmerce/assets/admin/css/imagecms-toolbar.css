@@ -1,0 +1,12 @@
+#wp-admin-bar-wp-logo .ab-icon:before {
+    content: '' !important;
+}
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon {
+    background-image: url('../images/imagecms-log.svg') !important;
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}

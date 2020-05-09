@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Premmerce WooCommerce Product Comparison\n"
+"POT-Creation-Date: 2018-02-01 14:09+0300\n"
+"PO-Revision-Date: 2018-02-01 14:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: views/frontend/comparison-btn.php:8
+msgid "Compare"
+msgstr "Сравнить"
+
+#: views/frontend/comparison-btn.php:18
+msgid "Add to Comparison"
+msgstr "К сравнению"
+
+#: views/frontend/comparison-page-categories.php:5
+msgid "There are no products to compare"
+msgstr "Нет товаров для сравнения"
+
+#: views/widget/comparison-widget.php:11
+msgid "Comparison"
+msgstr "Cравнение"
+
+#: src/ProductComparisonPlugin.php:150
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для работы плагина %s нужен плагин %s"
+
+#: src/Widget/ComparisonWidget.php:40
+msgid "Premmerce Comparison"
+msgstr "Premmerce Comparison"
+
+#: src/Widget/ComparisonWidget.php:41
+msgid "List of Comparison"
+msgstr "Список сравнений"
+
+#: src/Frontend/Frontend.php:353
+msgid "Uncategorized"
+msgstr "Без категории"
+
+#~ msgid "In the comparison"
+#~ msgstr "В сравнении"

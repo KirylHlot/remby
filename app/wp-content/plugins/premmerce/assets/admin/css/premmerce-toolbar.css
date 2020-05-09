@@ -1,0 +1,29 @@
+#wp-admin-bar-wp-logo .ab-icon:before {
+    content: '' !important;
+}
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon {
+    background-image: url('../images/premmerce_logo.svg') !important;
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.admin-color-light #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon
+{
+    background-image: url('../images/premmerce_logo_light.svg') !important;
+}
+.admin-color-blue #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon
+{
+    background-image: url('../images/premmerce_logo_blue.svg') !important;
+}
+.admin-color-ocean #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon
+{
+    background-image: url('../images/premmerce_logo_ocean.svg') !important;
+}
+.admin-color-sunrise #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon
+{
+    background-image: url('../images/premmerce_logo_sunrise.svg') !important;
+}

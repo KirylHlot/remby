@@ -1,0 +1,388 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:18:13
+* VERSION: 1.3.30
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.10                                |7.2.10
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-05-04 12:09:11
+WP VERSION__________: 5.4.1
+DUP VERSION_________: 1.3.30
+DB__________________: 5.6.41
+DB TABLES___________: 13
+DB ROWS_____________: 194
+DB FILE SIZE________: 1.67MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.10 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "F:/Server/OSPanel/domains/remby.loc/app"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://remby.loc/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "F:/Server/OSPanel/domains/remby.loc/app/20200420_starter_pack_[HASH]_20200504120911_archive.zip"
+SIZE________________: 29.28MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "F:/Server/OSPanel/domains/remby.loc/app/20200420_starter_pack_[HASH]_20200504120911_archive.zip"
+SIZE________________: 29.28MBFile timestamp set to Current: 2020-05-04 12:19:54
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:19:54 - RUNTIME: 100.4607 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:44:30
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.41 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (73.62KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[F:/Server/OSPanel/domains/remby.loc/app/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	123
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (127)
+wp_postmeta: (23)
+wp_posts: (8)
+wp_term_relationships: (0)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (23)
+wp_users: (1)
+Removed '17' cache/transient rows
+
+INSERT DATA RUNTIME: 3.5059 sec.
+STEP-2 COMPLETE @ 12:44:33 - RUNTIME: 3.5263 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:44:37
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "starter_pack"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "F:/Server/OSPanel/domains/starter.pack/app"
+path_new______________: "F:/Server/OSPanel/domains/remby.loc/app"
+siteurl_______________: "http://remby.loc"
+url_old_______________: "http://starter.pack"
+url_new_______________: "http://remby.loc"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "remby"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   127][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"F:/Server/OSPanel/domains/starter.pack/app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  2:"F:\/Server\/OSPanel\/domains\/starter.pack\/app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  3:"F%3A%2FServer%2FOSPanel%2Fdomains%2Fstarter.pack%2Fapp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  4:"F:\Server\OSPanel\domains\starter.pack\app" ======> "F:/Server/OSPanel/domains/remby.loc/app"
+	SEARCH  5:"F:\\Server\\OSPanel\\domains\\starter.pack\\app" => "F:\/Server\/OSPanel\/domains\/remby.loc\/app"
+	SEARCH  6:"F%3A%5CServer%5COSPanel%5Cdomains%5Cstarter.pack%5Capp" => "F%3A%2FServer%2FOSPanel%2Fdomains%2Fremby.loc%2Fapp"
+	SEARCH  7:"//starter.pack" ==================================> "//remby.loc"
+	SEARCH  8:"\/\/starter.pack" ================================> "\/\/remby.loc"
+	SEARCH  9:"%2F%2Fstarter.pack" ==============================> "%2F%2Fremby.loc"
+	SEARCH 10:"//www.starter.pack" ==============================> "//remby.loc"
+	SEARCH 11:"\/\/www.starter.pack" ============================> "\/\/remby.loc"
+	SEARCH 12:"%2F%2Fwww.starter.pack" ==========================> "%2F%2Fremby.loc"
+	SEARCH 13:"https://remby.loc" ===============================> "http://remby.loc"
+	SEARCH 14:"https:\/\/remby.loc" =============================> "http:\/\/remby.loc"
+	SEARCH 15:"https%3A%2F%2Fremby.loc" =========================> "http%3A%2F%2Fremby.loc"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:184 	|	 Cells:896 
+UPDATED:	Tables:3 	|	 Rows:13 	|	 Cells:13 
+ERRORS:		0 
+RUNTIME:	0.232000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""remby""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:44:37 - RUNTIME: 0.3670 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

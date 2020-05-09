@@ -1,0 +1,2 @@
+2020-05-04T15:14:58+00:00 CRITICAL Cannot redeclare the_lsx_icon() (previously declared in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\icons_pack.php:221) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\icons_pack.php на строке 248
+
