@@ -3635,7 +3635,14 @@ function wc_get_cart_undo_url( $cart_item_key ) {
  *
  * @since 3.5.0
  */
+
 function woocommerce_output_all_notices() {
+	echo '<div class="woocommerce-notices-wrapper">';
+	wc_print_notices();
+	echo '</div>';
+}
+
+function woocommerce_output_all_notices_custom() {
 	echo '<div class="woocommerce-notices-wrapper">';
 	wc_print_notices();
 	echo '</div>';

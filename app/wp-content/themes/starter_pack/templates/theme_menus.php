@@ -40,13 +40,11 @@ function top_menu($is_home)
         <a href="/cart">
           <? the_basket_icon(); ?>
         </a>
-        <? $cart_count = WC()->cart->get_cart_contents_count();
-        if ($cart_count > 0) {
-          ?>
-          <div class="cart_count"><?= $cart_count; ?></div>
-        <?
-        }
-        ?>
+        <? $cart_count = WC()->cart->get_cart_contents_count();?>
+          <div class="cart_count">
+            <?= $cart_count; ?>
+          </div>
+
 
       </li>
     </ul>

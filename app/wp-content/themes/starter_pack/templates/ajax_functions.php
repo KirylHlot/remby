@@ -50,3 +50,9 @@ function show_filtered_products(){
   wp_reset_postdata();
   wp_die();
 }
+
+function get_cart_count(){
+  $cart_count = WC()->cart->get_cart_contents_count();
+  echo $cart_count;
+  wp_die();
+}

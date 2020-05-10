@@ -256,19 +256,17 @@ include_once ('templates/ajax_functions.php');
 if( wp_doing_ajax() ){
   add_action('wp_ajax_mp_do_filter', 'show_filtered_products');
   add_action('wp_ajax_nopriv_mp_do_filter', 'show_filtered_products');
+
+  add_action('wp_ajax_refresh_cart_count', 'get_cart_count');
+  add_action('wp_ajax_nopriv_refresh_cart_count', 'get_cart_count');
 }
 
 
-add_action( 'wp_footer', 'cart_update_qty_script' );
-
-function cart_update_qty_script() {
-  if (is_cart()) :
-    ?>
-    <script>
-      jQuery('div.woocommerce').on('change', '.qty', function(){
-        jQuery("[name='update_cart']").removeAttr("disabled").trigger("click");
-      });
-    </script>
-  <?php
-  endif;
+add_filter( 'woocommerce_add_to_cart_fragments', 'add_to_cart_refresh' );
+function add_to_cart_refresh( $fragments ) {
+  global $woocommerce;
+  $fragments['.cart_count'] = '<div class="cart_count">' . $woocommerce->cart->cart_contents_count . '</div>';
+  return $fragments;
 }
+
+add_filter( 'woocommerce_enqueue_styles', '__return_false' );

@@ -56,7 +56,7 @@
     <? the_close_icon(); ?>
   </div>
   <div class="left_part" id="product_thumbnail" style>
-    <? echo wp_get_attachment_image( 56 , 'full', "", array( "class" => "popup_product_img" )); ?>
+    <? echo wp_get_attachment_image(56, 'full', "", array("class" => "popup_product_img")); ?>
   </div>
   <div class="right_part">
     <div id="product_title" class="product_title">Ремень женский 40мм 15</div>
@@ -81,17 +81,17 @@
         <input aria-label="counter" type="number" id="count_display" class="count_display" value="1">
         <div id="plus_product" class="plus checkers">+</div>
       </div>
-      <a href="?add-to-cart=55" id="product_popup_add_to_cart" data-quantity="1" class="button add_to_cart_button ajax_add_to_cart"
+      <a href="?add-to-cart=55" id="product_popup_add_to_cart" data-quantity="1"
+         class="button add_to_cart_button ajax_add_to_cart"
          data-product_id="55" data-product_sku="" aria-label="Добавить в корзину" rel="nofollow noopener">В
         корзину</a>
     </div>
     <?= do_shortcode('[contact-form-7 id="141" title="Продукт попап"]'); ?>
   </div>
 </div>
-
 <div class="modal_search_wrapper">
   <div class="ms_wrapper">
-    <?= do_shortcode( '[wpdreams_ajaxsearchlite]' ); ?>
+    <?= do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
     <div class="close_search_popup"><? the_close_icon(); ?></div>
   </div>
 </div>

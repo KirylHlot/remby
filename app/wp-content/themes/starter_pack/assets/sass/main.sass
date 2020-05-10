@@ -168,6 +168,9 @@ svg
 	height: auto
 	display: block
 	position: relative
+	fill-rule: evenodd
+	clip-rule: evenodd
+
 
 .the_telegram_icon
 	.stripe1
@@ -1688,6 +1691,33 @@ div.asl_w .probox .proloading
 		text-decoration: underline
 
 
+.woocommerce
+	width: 100%
+	height: auto
+	h1, h2, h3
+		font-family: $WarnockPro
+		font-style: italic
+		font-weight: normal
+		font-size: 24px
+		line-height: 32px
+		color: #E64547
+		margin-bottom: 30px
+	p
+		font-weight: 500
+		font-size: 18px
+		line-height: 27px
+		margin-bottom: 30px
+		&:last-child
+			margin-bottom: 0
+		img
+			margin-bottom: 0
+	iframe
+		display: block
+		width: 100%
+		height: 400px
+		margin-bottom: 30px
+
+
 .stati_list, .alm-reveal
 	@include simple_list_items($type: space-around, $items_count: 3, $min_height: 210px, $mb: 30px)
 	.list_item
@@ -1820,14 +1850,13 @@ div.asl_w .probox .proloading
 					max-height: 24px
 					fill: $accent
 
+
 .p_contacts_map
 	width: 100%
 	height: 550px
 	iframe
 		width: 100%
 		height: 100%
-
-
 
 
 div.asl_w .probox .promagnifier .innericon svg
@@ -1961,12 +1990,390 @@ div.asl_w .probox .promagnifier .innericon svg
 				color: $white
 				border-color: $accent
 
+
 .noresult
 	font-size: 18px
 	line-height: 21px
 	text-transform: uppercase
 	color: $accent
 
+.added_to_cart
+	display: none
+
+.color_accent
+	color: $accent
+
+.lf_title
+	font-family: $WarnockPro
+	font-style: italic
+	font-weight: normal
+	font-size: 32px
+	line-height: 38px
+	text-align: center
+	color: #E64547
+	margin-bottom: 40px
+
+
+.lf_content
+	font-size: 18px
+	line-height: 24px
+	text-align: center
+	margin-bottom: 40px
+
+
+.woocommerce-error
+	width: 100%
+	height: auto
+	padding: 0 !important
+	margin: 0 0 20px !important
+	text-align: center
+	li
+		width: 100% !important
+		height: auto !important
+		text-align: center !important
+		display: inline
+		justify-content: center
+		color: $accent
+		background-color: rgba($accent, .2)
+		&:before
+			display: none !important
+
+
+.forms_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	.register_wrapper, .autorize_wrapper
+		width: 45%
+		.title
+			font-family: $WarnockPro
+			font-style: italic
+			font-weight: normal
+			font-size: 24px
+			line-height: 32px
+			text-align: center
+			margin-bottom: 16px
+			color: $accent
+		.woocommerce-form
+			border: none
+			padding: 0
+			text-align: left
+			border-radius: 0
+			display: block
+			position: relative
+			width: 100%
+			.checkbox_wrapper
+				width: 100%
+				height: auto
+				display: flex
+				align-items: center
+				margin-bottom: 45px
+				input
+					width: 20px
+					height: 20px
+					background-color: transparent
+					border: none
+					margin-right: 10px
+			.title_wrapper
+				width: 100%
+				height: auto
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				align-items: center
+				margin-bottom: 10px
+				label
+					margin-bottom: 0 !important
+				a
+					&:hover
+						text-decoration: underline
+			.field_wrapper
+				width: 100%
+				height: auto
+				margin-bottom: 20px
+				.required
+					color: $accent
+				label
+					line-height: 22px
+					margin-bottom: 7px
+				input
+					background: #FFFFFF
+					border: 1px solid $light_grey
+					border-radius: 6px
+					width: 100%
+					height: 38px
+					padding: 0 16px
+				.woocommerce-password-strength
+					width: 100%
+					height: auto
+					padding: 10px
+					margin: 10px 0
+					color: $accent
+					background-color: rgba($accent, .2)
+					&.good
+						color: $dark
+						background-color: rgba(yellow, .2)
+					&.strong
+						color: black
+						background-color: rgba(green, .2)
+			.button_wrapper
+				position: relative
+				width: auto
+				height: 64px
+				.button_overlay
+					z-index: 2
+					width: 100%
+					height: 100%
+					background: rgba(255,255,255,.8)
+					position: absolute
+					left: 0
+					top: 0
+				.button
+					z-index: 1
+					height: 100%
+			.notice
+				font-size: 12px
+				line-height: 18px
+				color: #969696
+				display: block
+				margin-bottom: 15px
+			.aproof
+				font-size: 12px
+				line-height: 14px
+				color: #C4C4C4
+				margin-bottom: 40px
+				cursor: pointer
+				display: flex
+				flex-direction: row
+				&.true
+					.done
+						border: 1px solid $accent
+						background-color: $accent
+				.done
+					width: 12px
+					height: 12px
+					border-radius: 50%
+					border: 1px solid $grey
+					margin-right: 8px
+
+
+.is_logined_wrapper
+	display: block
+	text-align: center
+	line-height: 22px
+	letter-spacing: -0.2px
+
+
+.show_login_popup
+	cursor: pointer
+
+.my_account_wrapper
+	.woocommerce
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		position: relative
+		.woocommerce-MyAccount-navigation
+			width: 16%
+			height: auto
+			background: #FFFFFF
+			box-shadow: -2px 4px 32px rgba(247, 224, 181, 0.24)
+			padding: 10px 20px
+			.title
+				font-size: 18px
+				line-height: 21px
+				text-transform: uppercase
+				color: $accent
+				margin-bottom: 20px
+				font-weight: 400
+				text-decoration: none
+				display: block
+				&:hover
+					color: $color
+					text-decoration: underline
+			ul
+				margin-bottom: 0
+				display: block
+				width: 100%
+				height: auto
+				padding: 0 0 0 26px
+				li
+					font-weight: 500
+					font-size: 18px
+					line-height: 21px
+					text-transform: uppercase
+					margin-bottom: 16px
+					width: 100%
+					height: auto
+					display: flex
+					flex-direction: row
+					align-items: center
+					position: relative
+					&:last-child
+						margin-bottom: 0
+					&:before
+						content: ''
+						width: 8px
+						height: 8px
+						border-radius: 50%
+						background-color: $accent
+						position: absolute
+						left: -24px
+						display: block
+					&:hover
+						a
+							color: $accent
+					&.woocommerce-MyAccount-navigation-link--customer-logout
+						&:before
+							display: none
+						&:after
+							content: url('../img/nav_prev.svg')
+							position: absolute
+							left: -24px
+							display: block
+						a
+							color: #C4C4C4
+							&:hover
+								color: $black
+					&.is-active
+						a
+							color: $accent
+					a
+						text-decoration: none
+						color: $color
+		.woocommerce-MyAccount-content
+			width: 82%
+			.the_advantage
+				@include simple_list_items($type: space-between, $items_count: 3, $min_height: 200px, $mb: 20px)
+				.list_item
+					svg
+						width: 38px
+						height: auto
+						fill: $accent
+
+
+.order_items_list
+	width: 100%
+	height: auto
+	.order_item
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		border-bottom: 2px solid #E5E5E5
+		&:last-child
+			border-bottom: none
+		.cell
+			padding: 20px 12px
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			border-right: 2px solid #E5E5E5
+			&:last-child
+				border-right: none
+		.count
+			width: 3%
+			font-size: 24px
+			line-height: 28px
+			text-transform: uppercase
+			padding: 15px 0
+		.order_info
+			width: 63%
+			.info_wrapper
+				font-family: $WarnockPro
+				font-style: italic
+				font-weight: normal
+				font-size: 24px
+				line-height: 29px
+				margin-bottom: 30px
+			.show_detail
+				width: auto
+				font-size: 18px
+				line-height: 21px
+				text-decoration-line: underline
+				color: $accent
+				display: contents
+				&:hover
+					text-decoration: none
+		.order_navigate
+			width: 34%
+			font-size: 24px
+			line-height: 28px
+			color: #C4C4C4
+			.status
+				margin-left: auto
+			.woocommerce-button
+				font-size: 18px
+				line-height: 21px
+				color: $accent
+				display: block
+				margin-left: auto
+
+.empty_alert
+	width: 100%
+	height: auto
+	padding: 20px
+	display: block
+	color: $accent
+
+.address_wrapper
+	width: 100%
+	height: auto
+	.title_line
+		margin-bottom: 20px
+		display: flex
+		flex-direction: row
+		align-items: center
+		.h3_title
+			margin-bottom: 0
+			margin-right: 30px
+		.edit
+			text-decoration: underline
+			position: relative
+			top: -2px
+			&:hover
+				text-decoration: none
+	.address
+		div
+			font-size: 18px
+			margin-bottom: 12px
+			font-weight: 500
+
+.woocommerce-address-fields__field-wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-between
+	.form-row
+		width: 48%
+		display: flex
+		flex-direction: column
+		margin-bottom: 20px
+		label
+			font-weight: 500
+			margin-bottom: 5px
+			.optional
+				font-size: 14px
+				color: $grey
+				display: inline
+		span
+			width: 100%
+			height: auto
+			display: block
+			input
+				width: 100%
+				height: 38px
+				border: 1px solid #E4E4E4
+				border-radius: 6px
+				padding: 0 12px
+
+#billing_address_2_field
+	display: none !important
 
 
 @import "media"

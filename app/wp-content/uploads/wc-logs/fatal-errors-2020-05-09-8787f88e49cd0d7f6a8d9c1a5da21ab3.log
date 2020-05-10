@@ -133,3 +133,15 @@ Stack trace:
 #4 {main}
   thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 38
 
+2020-05-09T15:01:01+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\form-login.php на строке 70
+
+2020-05-09T18:42:16+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 274
+
+2020-05-09T18:42:17+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\functions.php на строке 274
+
+2020-05-09T21:01:24+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\navigation.php на строке 36
+
+2020-05-09T21:03:54+00:00 CRITICAL syntax error, unexpected '<' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\navigation.php на строке 35
+
+2020-05-09T23:42:12+00:00 CRITICAL syntax error, unexpected 'url' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\orders.php на строке 43
+
