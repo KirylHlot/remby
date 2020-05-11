@@ -1503,7 +1503,6 @@ div.asl_w .probox .proloading
 			.product_count_check_wrapper
 				width: 48%
 				height: 40px
-				display: flex
 				@include flex_center
 				.checkers
 					font-size: 30px
@@ -1689,6 +1688,9 @@ div.asl_w .probox .proloading
 		font-weight: 600
 		color: $accent
 		text-decoration: underline
+
+
+
 
 
 .woocommerce
@@ -2254,6 +2256,9 @@ div.asl_w .probox .promagnifier .innericon svg
 						fill: $accent
 
 
+
+
+
 .order_items_list
 	width: 100%
 	height: auto
@@ -2341,6 +2346,97 @@ div.asl_w .probox .promagnifier .innericon svg
 			font-size: 18px
 			margin-bottom: 12px
 			font-weight: 500
+			&.get_billing_phone, &.get_billing_email
+				font-size: 20px
+				font-weight: 700
+
+.woocommerce-order-details
+	width: 100%
+	height: auto
+	margin-bottom: 30px
+	.order_table
+		width: 100%
+		height: auto
+		margin-bottom: 30px
+		.table_head, .table_body
+			width: 100%
+			height: auto
+		.table_head, .table_row
+			width: 100%
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			padding: 16px 25px
+		.table_row
+			padding: 32px 25px
+			border-bottom: 2px solid #E5E5E5
+		.table_head
+			border-bottom: 2px solid #E5E5E5
+			.cell
+				font-weight: normal !important
+		.table_body
+			margin-bottom: 30px
+		.cell
+			&.prod_name
+				width: 41%
+				.title
+					font-family: $WarnockPro
+					font-style: italic
+					font-weight: normal
+					font-size: 18px
+					line-height: 22px
+					text-transform: uppercase
+					color: $dark
+					margin-bottom: 16px
+			&.prod_sale_percent
+				width: 13%
+				font-weight: bold
+			&.prod_price
+				width: 13%
+				&.is_sale
+					.sale
+						font-weight: bold
+						font-size: 18px
+						line-height: 21px
+						color: $dark
+						margin-bottom: 10px
+						display: block
+					.price
+						font-size: 16px
+						line-height: 19px
+						color: $color
+						position: relative
+						font-weight: 500
+						content: initial
+						text-decoration: line-through
+				.price
+					font-weight: bold
+					font-size: 18px
+					line-height: 21px
+					color: $dark
+				.sale
+					display: none
+			&.prod_quantity
+				width: 13%
+			&.prod_price_total
+				width: 13%
+	.total
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: flex-end
+		padding-right: 20px
+		span
+			text-transform: uppercase
+			margin-right: 30px
+		strong
+			font-weight: bold
+			font-size: 32px
+			line-height: 38px
+			color: $dark
+
 
 .woocommerce-address-fields__field-wrapper
 	width: 100%
@@ -2374,6 +2470,291 @@ div.asl_w .probox .promagnifier .innericon svg
 
 #billing_address_2_field
 	display: none !important
+
+.woocommerce-EditAccountForm
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-between
+	.woocommerce-form-row
+		width: 48%
+		display: flex
+		flex-direction: column
+		margin-bottom: 20px
+		label
+			margin-bottom: 10px
+			font-weight: 500
+		input
+			width: 100%
+			height: 38px
+			border: 1px solid #E4E4E4
+			border-radius: 6px
+			padding: 0 12px
+		span
+			em
+				display: block
+				padding: 10px 0 0 0
+				font-size: 14px
+				color: $grey
+		.button
+			width: 300px
+
+.woocommerce-EditAccountForm
+	fieldset
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-between
+		.h2_title
+			width: 100%
+			margin-bottom: 10px
+			margin-top: 20px
+
+.bottom_part_cart, .bottom_part_checkout
+	display: block
+	.woocommerce
+		display: block
+		width: 100%
+		.woocommerce-notices-wrapper
+			position: fixed
+			z-index: 200
+			bottom: 0
+			left: 0
+			width: auto
+			max-width: 100%
+			height: auto
+			ul
+				width: 100%
+				height: auto
+			li, .woocommerce-message
+				display: block
+				width: 100%
+				height: auto
+				padding: 16px
+				margin: 0
+				background-color: rgba($accent, .9)
+				color: $white
+				font-weight: 500
+				font-size: 20px
+
+
+.products_list
+	width: 880px
+	margin: 0 auto 30px
+	height: auto
+	.product_item
+		width: 100%
+		height: auto
+		padding: 40px 0
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		position: relative
+		border-bottom: 1px solid $accent
+		margin-bottom: 40px
+		&:last-child
+			margin-bottom: 0
+		.remove_product
+			width: 40px
+			height: 40px
+			background-color: $dark
+			@include flex_center
+			cursor: pointer
+			top: 0
+			right: 0
+			position: absolute
+			&:hover
+				background-color: $accent
+			svg
+				fill: $white
+				width: 20px
+		.thumb_wrapper
+			width: 35%
+			height: 220px
+			display: flex
+			justify-content: center
+			align-items: center
+			background-color: $white
+			img
+				display: block
+				width: auto
+				height: auto
+				max-width: 100%
+				max-height: 100%
+		.content_wrapper
+			width: 63%
+			.title
+				font-family: $WarnockPro
+				font-style: italic
+				font-weight: normal
+				font-size: 32px
+				line-height: 44px
+				text-transform: uppercase
+				color: $accent
+				margin-bottom: 20px
+			.brand
+				margin-bottom: 20px
+			.prices
+				width: auto
+				display: flex
+				flex-direction: row
+				align-items: center
+				margin-bottom: 30px
+				&.is_sale
+					.sale
+						font-weight: 500
+						font-size: 24px
+						line-height: 28px
+						color: $accent
+						margin-right: 40px
+						display: block
+					.price
+						font-size: 24px
+						line-height: 28px
+						text-decoration-line: line-through
+						color: $color
+						margin-right: 0
+				.price
+					font-weight: 500
+					font-size: 24px
+					line-height: 28px
+					color: $accent
+					margin-right: 40px
+				.sale
+					display: none
+			.bottom_content
+				.product_count_check_wrapper
+					width: auto
+					height: 40px
+					display: flex
+					flex-direction: row
+					align-items: center
+					flex-wrap: wrap
+					margin-bottom: 30px
+					.checkers
+						font-size: 30px
+						width: 40px
+						height: 100%
+						@include flex_center
+						cursor: pointer
+						&.minus
+							color: $accent
+					.quantity
+						label
+							display: none
+						input
+							width: 40px
+							height: 100%
+							border: none
+							color: $grey
+							padding: 0 10px
+							margin: 0 10px
+				.button
+					display: block
+					&:disabled
+						opacity: .3
+						cursor: default
+						&:hover
+							background-color: $dark
+	.coupon
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		margin-bottom: 30px
+		label
+			display: none
+		input
+			width: 250px
+			height: 42px
+			border: 1px solid #E4E4E4
+			padding: 0 12px
+			margin-right: 20px
+		button
+			height: 42px
+			border: none
+
+.process_part
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: column
+	align-items: center
+	.subtotal
+		margin-bottom: 50px
+		span
+			font-size: 24px
+			line-height: 44px
+			margin-right: 15px
+		strong
+			font-weight: bold
+			font-size: 32px
+			line-height: 38px
+			color: #171F21
+	.button
+		background-color: transparent
+		border:
+			left: 1px solid $accent
+			top: 1px solid $accent
+			right: 1px solid $accent
+		color: $color
+		&:hover
+			background-color: $accent
+			color: $white
+		&:after
+			content: ''
+			display: block
+			position: absolute
+			width: 100px
+			height: 1px
+			background-color: $accent
+			right: -70px
+
+.bottom_part_checkout
+	.woocommerce
+		width: 100%
+		height: auto
+		.checkout_form
+			width: 100%
+			height: auto
+			.shop_table
+				width: 100%
+				height: auto
+
+.shop_table_top_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	.ch_column
+		width: 32%
+		position: relative
+		.title_wrapper
+			display: flex
+			flex-direction: row
+			align-items: center
+			margin-bottom: 25px
+			svg
+				width: 32px
+				fill: $accent
+				margin-right: 26px
+			.h2_title
+				font-family: $WarnockPro
+				font-style: italic
+				font-weight: normal
+				font-size: 32px
+				line-height: 100%
+				margin-bottom: 0
+		&.shipping_column
+			ul
+				width: 100%
+				height: auto
+				padding-left: 40px
 
 
 @import "media"

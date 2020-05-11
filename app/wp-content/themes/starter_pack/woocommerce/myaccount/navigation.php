@@ -49,7 +49,6 @@ do_action( 'woocommerce_before_account_navigation' );
     }?>
 
 
-
 	</ul>
 </nav>
 

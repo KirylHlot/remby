@@ -64,3 +64,15 @@ add_filter( 'wpseo_canonical', 'yoast_seo_canonical_change_woocom_shop', 10, 1 )
 add_filter('wpcf7_autop_or_not', '__return_false');
 
 remove_action( 'woocommerce_register_form', 'wc_registration_privacy_policy_text', 20 );
+
+//аякс добавление товара в корзину
+add_filter('woocommerce_add_to_cart_fragments', 'add_to_cart_refresh');
+function add_to_cart_refresh($fragments)
+{
+  global $woocommerce;
+  $fragments['.cart_count'] = '<div class="cart_count">' . $woocommerce->cart->cart_contents_count . '</div>';
+  return $fragments;
+}
+
+//отключить все стили вукомерс
+add_filter('woocommerce_enqueue_styles', '__return_false');

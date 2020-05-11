@@ -95,3 +95,12 @@ function search_item_template($product_id){
 <?
   return 1;
 }
+
+function woocommerce_custom_sales_price($product)
+{
+  if($product->sale_price){
+    $percentage = round((($product->regular_price - $product->sale_price) / $product->regular_price) * 100);
+    return $percentage;
+  }
+  return '';
+}

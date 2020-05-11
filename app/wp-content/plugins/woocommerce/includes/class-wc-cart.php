@@ -1788,6 +1788,8 @@ class WC_Cart extends WC_Legacy_Cart {
 	 * @param bool $compound whether to include compound taxes.
 	 * @return string formatted price
 	 */
+
+
 	public function get_cart_subtotal( $compound = false ) {
 		/**
 		 * If the cart has compound tax, we want to show the subtotal as cart + shipping + non-compound taxes (after discount).
@@ -1811,6 +1813,7 @@ class WC_Cart extends WC_Legacy_Cart {
 
 		return apply_filters( 'woocommerce_cart_subtotal', $cart_subtotal, $compound, $this );
 	}
+
 
 	/**
 	 * Get the product row price per item.

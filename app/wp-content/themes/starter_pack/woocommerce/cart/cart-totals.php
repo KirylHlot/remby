@@ -18,11 +18,14 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
+
 <div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
-	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-	<h2><?php esc_html_e( 'Cart totals', 'woocommerce' ); ?></h2>
+
+
+
+	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
 	<table cellspacing="0" class="shop_table shop_table_responsive">
 
@@ -37,6 +40,7 @@ defined( 'ABSPATH' ) || exit;
 				<td data-title="<?php echo esc_attr( wc_cart_totals_coupon_label( $coupon, false ) ); ?>"><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
 			</tr>
 		<?php endforeach; ?>
+
 
 		<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
 

@@ -4,3 +4,96 @@
 
 2020-05-10T00:56:39+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\my-address.php на строке 75
 
+2020-05-10T12:53:46+00:00 CRITICAL syntax error, unexpected end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\order\order-details.php на строке 158
+
+2020-05-10T13:18:17+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\ajax_functions.php на строке 58
+
+2020-05-10T13:22:16+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_quantity() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\order\order-details.php:70
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_details_table(173)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\myaccount\view-order.php(56): do_action('woocommerce_vie...', 173)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\order\order-details.php на строке 70
+
+2020-05-10T13:23:08+00:00 CRITICAL syntax error, unexpected '$prod_qty' (T_VARIABLE) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\order\order-details.php на строке 71
+
+2020-05-10T16:21:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_thumbnail() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(218): preg в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php на строке 34
+
+2020-05-10T16:22:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_product_thumbnail() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(21 в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php на строке 34
+
+2020-05-10T16:22:33+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_product_thumbnail() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(21 в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php на строке 34
+
+2020-05-10T16:22:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_product_thumbnail() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php:34
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(21 в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php на строке 34
+
+2020-05-10T16:45:58+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on null in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php:40
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(218): preg_replace_ в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\cart\cart.php на строке 40
+
+2020-05-10T16:51:51+00:00 CRITICAL require_once(): Failed opening required 'F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce/includes/legacy/class-wc-legacy-cart_new.php' (include_path='.;f:/server/ospanel/modules/php/PHP-7.2;f:/server/ospanel/modules/php/PHP-7.2/PEAR/pear') в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-cart.php на строке 14
+
+2020-05-10T16:51:53+00:00 CRITICAL require_once(): Failed opening required 'F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce/includes/legacy/class-wc-legacy-cart_new.php' (include_path='.;f:/server/ospanel/modules/php/PHP-7.2;f:/server/ospanel/modules/php/PHP-7.2/PEAR/pear') в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-cart.php на строке 14
+
+2020-05-10T16:52:06+00:00 CRITICAL require_once(): Failed opening required 'F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce/includes/legacy/class-wc-legacy-cart_new.php' (include_path='.;f:/server/ospanel/modules/php/PHP-7.2;f:/server/ospanel/modules/php/PHP-7.2/PEAR/pear') в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-cart.php на строке 14
+
+2020-05-10T23:01:57+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:106
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.p в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 106
+
+2020-05-10T23:25:24+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php:472
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\cache.php(126): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\option.php(204): wp_cache_get('alloptions', 'options', false)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\option.php(92): wp_load_alloptions()
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-conditional-functions.php(354): get_option('woocommerce_shi...')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1366): wc_shipping_enabled()
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\gateways\co в F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php на строке 472
+
+2020-05-10T23:50:25+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 75
+

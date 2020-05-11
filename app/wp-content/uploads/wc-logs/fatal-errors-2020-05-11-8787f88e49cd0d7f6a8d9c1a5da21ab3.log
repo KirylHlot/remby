@@ -1,0 +1,33 @@
+2020-05-11T00:09:17+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php:472
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\cache.php(126): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\option.php(204): wp_cache_get('alloptions', 'options', false)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\option.php(92): wp_load_alloptions()
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(211): get_option('wp_translitera')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(238): wp_translitera::getoptions()
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(119): wp_translit в F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php на строке 472
+
+2020-05-11T00:09:19+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php:281
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\cache.php(126): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\option.php(73): wp_cache_get('notoptions', 'options')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(211): get_option('wp_translitera')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(238): wp_translitera::getoptions()
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(119): wp_translitera::getset('custom_rules', '[]')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\wp-translitera\wp-translitera.php(111): wp_translitera::get_custom_rules_for_transliterate()
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-co в F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-object-cache.php на строке 281
+
+2020-05-11T00:10:36+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\vendor\automattic\jetpack-constants\src\class-constants.php:72
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\vendor\automattic\jetpack-constants\src\class-constants.php(72): array_key_exists('WC_VERSION', Array)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): Automattic\Jetpack\Constants::get_constant('WC_VERSION')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478):  в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\vendor\automattic\jetpack-constants\src\class-constants.php на строке 72
+
+2020-05-11T00:22:28+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 62
+
+2020-05-11T00:41:07+00:00 CRITICAL syntax error, unexpected 'apply_filters' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 67
+
