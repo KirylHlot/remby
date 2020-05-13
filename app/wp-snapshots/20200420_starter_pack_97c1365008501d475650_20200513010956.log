@@ -1,0 +1,39 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 13.05.2020 01:11
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.30
+WORDPRESS:	5.4.1
+PHP INFO:	7.2.10 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200420_starter_pack_97c1365008501d475650_20200513010956_database.sql
+SQL FILE SIZE: 1.01MB (1056695)
+SQL FILE TIME: 2020-05-13 01:11:32
+SQL RUNTIME: 9.33 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  F:/Server/OSPanel/domains/remby.loc/app
+ARCHIVE FILE: 20200420_starter_pack_97c1365008501d475650_20200513010956_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	155.71MB
+STATS:	Dirs 1,317 | Files 8,861
+SQL ADDED: 20200420_starter_pack_97c1365008501d475650_20200513010956_database.sql

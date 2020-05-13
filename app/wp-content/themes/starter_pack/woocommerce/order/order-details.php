@@ -99,10 +99,7 @@ if ($show_downloads) {
       <strong><?= $prod_sub_total; ?></strong>
     </div>
   </div>
-
-
   <?php do_action('woocommerce_order_details_after_order_table', $order); ?>
-
 </section>
 
 

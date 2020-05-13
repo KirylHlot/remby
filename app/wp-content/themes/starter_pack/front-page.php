@@ -104,6 +104,7 @@
       </div>
     </div>
   <? } ?>
+
   <section id="section_about" class="section_about"
            style="background-image: url(<?= get_field('mp_ab_bg', $page_id)['url']; ?>);">
     <div class="content_wrapper">

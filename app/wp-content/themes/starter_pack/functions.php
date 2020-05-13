@@ -265,7 +265,6 @@ if (wp_doing_ajax()) {
 
 }
 
-add_action('woocommerce_checkout_payment','woocommerce_checkout_payment', 20);
 
 
 

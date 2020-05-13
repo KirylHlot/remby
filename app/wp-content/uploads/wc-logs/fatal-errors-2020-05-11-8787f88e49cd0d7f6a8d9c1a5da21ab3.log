@@ -31,3 +31,101 @@ Stack trace:
 
 2020-05-11T00:41:07+00:00 CRITICAL syntax error, unexpected 'apply_filters' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 67
 
+2020-05-11T18:24:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php:66
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php(39): do_action('woocommerce_che...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 66
+
+2020-05-11T18:24:45+00:00 CRITICAL Uncaught Error: Using $this when not in object context in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php:66
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php(39): do_action('woocommerce_che...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 66
+
+2020-05-11T18:59:52+00:00 CRITICAL Uncaught Error: Call to undefined function 0.00() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php:24
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php(39): do_action('woocommerce_che...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-func в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 24
+
+2020-05-11T19:10:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_sale_price() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php:71
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php(39): do_action('woocommerce_che...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\incl в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 71
+
+2020-05-11T19:10:10+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_sale_price() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php:71
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php(39): do_action('woocommerce_che...')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\incl в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\review-order.php на строке 71
+
+2020-05-11T22:40:37+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in F:\Server\OSPanel\domains\remby.loc\app\wp-includes\pomo\entry.php:91
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\pomo\entry.php(91): str_replace(Array, '\n', 'required')
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\pomo\translations.php(90): Translation_Entry->key()
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\pomo\translations.php(106): Translations->translate_entry(Object(Translation_Entry))
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\l10n.php(176): Translations->translate('required')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\l10n.php(270): translate('required', 'woocommerce')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2644): esc_attr__('required', 'woocommerce')
+#6 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-billing.php(35): woocommerce_form_fie в F:\Server\OSPanel\domains\remby.loc\app\wp-includes\pomo\entry.php на строке 91
+
+2020-05-11T23:25:28+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_order_total() on null in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:123
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-inclu в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 123
+
+2020-05-11T23:29:28+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:73
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 73
+
+2020-05-11T23:41:35+00:00 CRITICAL Uncaught Error: Call to undefined function do_filter() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:72
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.php(343): в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 72
+
+2020-05-11T23:44:23+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 74
+
+2020-05-11T23:47:04+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:77
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes.ph в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 77
+

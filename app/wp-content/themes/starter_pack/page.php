@@ -1,38 +1,34 @@
-<?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package starter_pack
- */
-
-get_header();
+<?
+$page_id = get_the_ID();
+$post_slug = $post->post_name;
+//var_dump($post_slug);
 ?>
 
-	<main id="primary" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+<? get_header(); ?>
+<section id="post-<?php the_ID(); ?>" <?php post_class('main'); ?>>
+  <div class="top_part">
+    <div class="main_wrapper">
 
-			get_template_part( 'template-parts/content', 'page' );
+      <div class="h1_wrapper">
+        <h1 class="h1_title">
+          <? the_title(); ?>
+        </h1>
+      </div>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+      <? if (function_exists('yoast_breadcrumb')) {
+        yoast_breadcrumb('<div id="breadcrumbs" class="breadcrumbs">', '</div>');
+      }; ?>
 
-		endwhile; // End of the loop.
-		?>
+    </div>
+  </div>
 
-	</main><!-- #main -->
+  <div class="bottom_part">
+    <div class="main_wrapper filter_page">
+      <? the_category_products_filter_html($post_slug); ?>
 
-<?php
-get_sidebar();
-get_footer();
+      <div class="the_filter_content"></div>
+    </div>
+  </div>
+</section>
+<? get_footer(); ?>

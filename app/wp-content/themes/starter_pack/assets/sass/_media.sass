@@ -120,7 +120,10 @@
 		height: 330px
 
 	.product_carousel_wrapper .product_carousel .item_wrapper
-		height: 580px
+		height: auto
+
+	.product_carousel_wrapper .product_carousel .content .title
+		width: 90%
 
 	.mp_prduct_list
 		padding: 30px 0 60px
@@ -188,6 +191,69 @@
 	.products_list
 		width: 700px
 
+	.shop_table_top_wrapper .ch_column .title_wrapper
+		margin-bottom: 20px
+
+	.shop_table_top_wrapper .ch_column.shipping_column ul li
+		margin-bottom: 20px
+
+	.shop_table_top_wrapper .ch_column.pay_column ul li label
+		font-size: 16px
+		line-height: 19px
+
+	.shop_table_top_wrapper .ch_column.shipping_column ul li label
+		font-size: 16px
+		line-height: 19px
+
+	.category_list .thumbnail_wrapper
+		height: 200px
+
+	.category_list .title
+		font-size: 32px
+		line-height: 40px
+		min-height: 80px
+
+	.product_info .page_product_carousel_wrapper .page_product_carousel a
+		height: 350px
+
+	.product_info .product_info_wrapper .character_wrapper .h2_title
+		font-size: 28px
+		line-height: 36px
+		margin-bottom: 14px
+
+	.product_info .product_info_wrapper .character_wrapper .content
+		margin-bottom: 30px
+
+	.product_info .product_info_wrapper .character_wrapper .attribute_list .attribute_item .title
+		width: 48%
+
+	.product_info .product_info_wrapper .character_wrapper .attribute_list .attribute_item .value
+		width: 48%
+
+	.product_info .product_info_wrapper
+		width: 56%
+
+	.product_info .page_product_carousel_wrapper .product_carousel_dots_wrapper .product_carousel_dot
+		height: 57px
+
+	.product_info .product_info_wrapper .add_to_cart_wrapper .product_count_check_wrapper
+		width: 40%
+
+	.product_info .product_info_wrapper .wpcf7 .wpcf7-form .wpcf7-form-control-wrap
+		width: 40%
+
+	.product_info
+		margin-bottom: 20px
+
+	.mp_prduct_list .main_wrapper.featured_products .title_line .h2_title
+		font-size: 32px
+		line-height: 42px
+
+	.product_carousel_wrapper .product_carousel .button
+		width: 200px
+		height: 54px
+		margin: 0 auto 20px
+
 @media (max-width: 1400px)
 	.header .header_carousel_block .content_part
 		top: 120px
@@ -246,7 +312,7 @@
 		width: 90%
 
 	.product_carousel_wrapper .product_carousel .item_wrapper
-		height: 490px
+		height: auto
 
 	.mp_prduct_list
 		padding: 30px 0 30px
@@ -332,8 +398,6 @@
 	.my_account_wrapper .woocommerce .woocommerce-MyAccount-content
 		width: 62%
 
-
-
 	.order_items_list .order_item .cell
 		padding: 15px 10px
 
@@ -405,6 +469,33 @@
 	.products_list .product_item .thumb_wrapper
 		height: 300px
 
+
+	.shop_table_top_wrapper .ch_column
+		width: 48%
+
+	.shop_table_top_wrapper
+		flex-wrap: wrap
+
+	.ch_column
+		margin-bottom: 30px
+		&.shipping_column
+			order: 1
+		&.pay_column
+			order: 3
+		&.your_order
+			order: 2
+
+	.woocommerce-order-details.checkout,
+	.billing_list_fields
+		width: 100%
+
+	.category_list .thumbnail_wrapper
+		height: 160px
+
+	.category_list .title
+		font-size: 26px
+		line-height: 30px
+		min-height: 70px
 
 @media (max-width: 1100px)
 	.top_menu .top_menu_wrapper
@@ -566,9 +657,79 @@
 	.products_list
 		width: 100%
 
+	.shop_table_top_wrapper .ch_column
+		width: 100%
+
+	.ch_column.your_order
+		order: 0
+
+	.woocommerce-order-details .order_table
+		padding: 0
+
+	.shop_table_top_wrapper .ch_column .total .total_amount
+		font-size: 26px
+		line-height: 34px
+
+	.shop_table_top_wrapper .ch_column.your_order .order_list_info .list_item .desc
+		font-size: 21px
+		line-height: 25px
+
+	.cupon_wrapper
+		width: 100%
+
+	.category_list .thumbnail_wrapper
+		height: 120px
+
+	.category_list .title
+		font-size: 20px
+		line-height: 28px
+		min-height: 50px
+
+	.category_list
+		margin-bottom: 20px
+
+	.woocommerce p
+		font-weight: 500
+		font-size: 16px
+		line-height: 25px
+		margin-bottom: 15px
+
+	.product_info .product_info_wrapper .character_wrapper .h2_title
+		font-size: 24px
+		line-height: 33px
+
+	.product_info .product_info_wrapper .character_wrapper .price_line .price_wrapper.is_sale .sale_price
+		font-size: 20px
+		line-height: 26px
+
+	.product_info .product_info_wrapper .character_wrapper .price_line .remark
+		margin-right: 15px
+
+	.product_info .product_info_wrapper .character_wrapper .content
+		font-size: 15px
+		line-height: 24px
+
+	.product_info .page_product_carousel_wrapper .page_product_carousel a
+		height: 300px
+
+	.product_info .product_info_wrapper .add_to_cart_wrapper
+		flex-wrap: wrap
+
+	.product_info .product_info_wrapper .add_to_cart_wrapper .product_count_check_wrapper
+		margin-right: 0
+		margin-bottom: 15px
+
+	.product_info .product_info_wrapper .character_wrapper .attribute_list
+		margin-bottom: 30px
+
+	.product_info .product_info_wrapper .wpcf7 .wpcf7-form .wpcf7-form-control-wrap
+		width: 100%
+		margin-bottom: 15px
+		margin-right: 0
+
+
 
 @media (max-width: 576px)
-
 	.top_menu
 		padding: 0 16px
 
@@ -742,6 +903,67 @@
 		padding: 8px
 		font-size: 16px
 
+	.shop_table_top_wrapper .ch_column.your_order .order_list_info .list_item .title:after
+		margin-left: 6px
+
+	.billing_list_fields,
+	.cupon_wrapper,
+	.shop_table_top_wrapper .ch_column.your_order .h2_title,
+	.shop_table_top_wrapper .ch_column.your_order .order_list_info
+		padding: 0 0 24px
+
+	.shop_table_top_wrapper .ch_column.pay_column
+		padding-bottom: 0
+		margin-bottom: 0
+
+	.cupon_wrapper input
+		width: 100%
+		height: 40px
+		margin-right: 0
+		margin-bottom: 20px
+
+	.cupon_wrapper .button
+		height: 45px
+		width: 100%
+
+	.shop_table_top_wrapper .ch_column .title_wrapper svg,
+	.billing_list_fields .title_wrapper svg
+		margin-right: 15px
+		width: 20px
+		top: -4px
+	.shop_table_top_wrapper .ch_column.your_order .h2_title,
+	.shop_table_top_wrapper .ch_column .title_wrapper .h2_title,
+	.billing_list_fields .title_wrapper .h3_title
+		font-size: 28px
+
+	.billing_list_fields .woocommerce-billing-fields__field-wrapper .form-row label
+		font-size: 16px
+
+	.woocommerce-order-details .order_table .table_row
+		padding: 20px 0
+
+	.category_list .item_category
+		width: 48%
+
+	.category_list .item_category:nth-child(3n)
+		margin-right: 2%
+
+	.category_list .item_category:nth-child(2n)
+		margin-right: 0
+
+	.product_info
+		flex-direction: column
+
+	.product_info .page_product_carousel_wrapper
+		width: 100%
+		margin-bottom: 20px
+
+	.product_info .product_info_wrapper
+		width: 100%
+
+	.main .bottom_part
+		padding: 64px 0 50px
+
 @media(max-width: 450px)
 	.left_menu .head .main_logo_wrapper
 		display: block
@@ -898,3 +1120,17 @@
 	.order_items_list .order_item .order_info
 		width: 63%
 
+	.category_list .item_category
+		width: 100%
+
+	.category_list .item_category:nth-child(3n)
+		margin-right: 0
+
+	.category_list .item_category:nth-child(2n)
+		margin-right: 0
+
+	.product_info .product_info_wrapper .character_wrapper .price_line
+		flex-wrap: wrap
+
+	.product_info .product_info_wrapper .character_wrapper .price_line .want_opt
+		margin-top: 20px

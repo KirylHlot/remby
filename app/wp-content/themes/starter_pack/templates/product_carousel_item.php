@@ -18,6 +18,8 @@ function product_carousel_item($product_id)
     $cross = 'cross';
   }
 
+  $product_url = get_the_permalink($product_id);
+
   $featured_array = wc_get_featured_product_ids();
   if (in_array($product_id, $featured_array)) {
     $remark = 'Хит';
@@ -52,7 +54,7 @@ function product_carousel_item($product_id)
     ' . $galary . '
     <div class="remark">' . $remark . '</div>
       <div class="content">
-        <div class="title">' . $pagetitle . '</div>
+        <a href="' . $product_url . '" class="title">' . $pagetitle . '</a>
         <div class="price_wrapper ' . $cross . '">
           ' . $sale . '
           <div class="price">' . $price . ' р.</div>

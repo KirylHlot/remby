@@ -1,0 +1,176 @@
+2020-05-12T00:04:15+00:00 CRITICAL Uncaught Error: Call to a member function get_product() on array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:83
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortcodes в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 83
+
+2020-05-12T00:09:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:86
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortc в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 86
+
+2020-05-12T00:38:50+00:00 CRITICAL syntax error, unexpected '$product_regular_price_by_one' (T_VARIABLE) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 94
+
+2020-05-12T00:39:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:91
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortc в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 91
+
+2020-05-12T00:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php:91
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\shortc в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\woocommerce\checkout\form-checkout.php на строке 91
+
+2020-05-12T11:36:34+00:00 CRITICAL syntax error, unexpected '|', expecting '(' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page-shop.php на строке 26
+
+2020-05-12T11:36:35+00:00 CRITICAL syntax error, unexpected '|', expecting '(' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page-shop.php на строке 26
+
+2020-05-12T16:23:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:39
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 39
+
+2020-05-12T16:23:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:39
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 39
+
+2020-05-12T16:24:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:39
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 39
+
+2020-05-12T16:26:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:35
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 35
+
+2020-05-12T16:26:56+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:35
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 35
+
+2020-05-12T16:30:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:8
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 8
+
+2020-05-12T17:08:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_attribute(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php on line 8 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-attribute-functions.php:428
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php(8): wc_get_attribute()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\plugins\woocommerce\includes\wc-attribute-functions.php на строке 428
+
+2020-05-12T17:14:22+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 10
+
+2020-05-12T20:28:18+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_get_product_thumbnail_url() in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php:4
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#3 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 4
+
+2020-05-12T20:36:15+00:00 CRITICAL syntax error, unexpected ')' в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\single-product.php на строке 12
+
+2020-05-12T23:35:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 21 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(21): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:37:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 26 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(26): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:38:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 28 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(28): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:38:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 28 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(28): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:39:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 27 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(27): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:39:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_category_products_filter(), 0 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 27 and exactly 1 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php:131
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(27): the_category_products_filter()
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 131
+
+2020-05-12T23:41:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php on line 5 and exactly 2 expected in F:\Server\OSPanel\domains\remby.loc\app\wp-includes\category-template.php:1236
+Stack trace:
+#0 F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\page.php(5): get_the_terms(0)
+#1 F:\Server\OSPanel\domains\remby.loc\app\wp-includes\template-loader.php(106): include('F:\\Server\\OSPan...')
+#2 F:\Server\OSPanel\domains\remby.loc\app\wp-blog-header.php(19): require_once('F:\\Server\\OSPan...')
+#3 F:\Server\OSPanel\domains\remby.loc\app\index.php(17): require('F:\\Server\\OSPan...')
+#4 {main}
+  thrown в F:\Server\OSPanel\domains\remby.loc\app\wp-includes\category-template.php на строке 1236
+
+2020-05-12T23:50:01+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) в F:\Server\OSPanel\domains\remby.loc\app\wp-content\themes\starter_pack\templates\theme_parts.php на строке 146
+

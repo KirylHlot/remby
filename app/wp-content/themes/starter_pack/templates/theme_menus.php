@@ -40,10 +40,10 @@ function top_menu($is_home)
         <a href="/cart">
           <? the_basket_icon(); ?>
         </a>
-        <? $cart_count = WC()->cart->get_cart_contents_count();?>
-          <div class="cart_count">
-            <?= $cart_count; ?>
-          </div>
+        <? $cart_count = WC()->cart->get_cart_contents_count(); ?>
+        <div class="cart_count">
+          <?= $cart_count; ?>
+        </div>
 
 
       </li>
@@ -78,11 +78,22 @@ function left_menu()
     </div>
 
     <div id="left_menu_content" class="menu_content">
-      <? wp_nav_menu([
-        'theme_location' => 'second_menu',
-        'menu_class' => 'second_menu',
-        'container' => 'false'
-      ]); ?>
+        <ul class="second_menu">
+          <? $terms = get_terms(array(
+            'taxonomy' => 'product_cat',
+            'hide_empty' => true,
+            'pad_counts' => true,
+            'orderby' => 'name',
+            'parent' => 0
+          )); ?>
+          <? if ($terms) { ?>
+            <? foreach ($terms as $term) { ?>
+              <li class="menu-item">
+                <a href="<?= get_term_link($term->term_id); ?>"><?= $term->name; ?></a>
+              </li>
+            <? }; ?>
+          <? } ?>
+        </ul>
 
 
       <a href="tel:+<?= preg_replace('~\D+~', '', get_field('cf_phone', 'option')); ?>" class="phone_wrapper">

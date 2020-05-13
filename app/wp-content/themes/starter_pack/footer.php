@@ -12,11 +12,22 @@
     </div>
     <div class="footer_column double">
       <a href="/shop" class="title">Каталог</a>
-      <? wp_nav_menu([
-        'theme_location' => 'second_menu',
-        'menu_class' => 'second_menu',
-        'container' => 'false'
-      ]); ?>
+      <ul class="second_menu">
+        <? $terms = get_terms(array(
+          'taxonomy' => 'product_cat',
+          'hide_empty' => true,
+          'pad_counts' => true,
+          'orderby' => 'name',
+          'parent' => 0
+        )); ?>
+        <? if ($terms) { ?>
+          <? foreach ($terms as $term) { ?>
+            <li class="menu-item">
+              <a href="<?= get_term_link($term->term_id); ?>"><?= $term->name; ?></a>
+            </li>
+          <? }; ?>
+        <? } ?>
+      </ul>
     </div>
     <div class="footer_column">
       <div class="title">Компания</div>
